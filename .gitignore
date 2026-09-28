@@ -1,0 +1,10 @@
+# The 2GB release binary and the CUDA runtime wheels are fetched by setup.sh.
+bin/gnina.bin
+.venv/
+
+# Sparse checkout of the upstream gnina test suite, also fetched by setup.sh.
+# Deliberately not vendored: it stays pullable from upstream and its
+# Apache/GPL licensing stays with upstream.
+upstream/
+
+bench_out/

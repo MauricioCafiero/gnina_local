@@ -1,0 +1,26 @@
+#!/bin/bash
+# Launcher for the prebuilt gnina release binary.
+#
+# Two things must be fixed up before exec'ing it:
+#   1. It dynamically links the CUDA runtime libs (libcudnn, libcublas, ...),
+#      which are installed as pip wheels under ../.venv rather than system-wide.
+#   2. LD_LIBRARY_PATH must NOT be inherited: ORCA's bundled libstdc++.so.6 is
+#      older than the system one and lacks CXXABI_1.3.15, which breaks any
+#      system C++ binary (gnina and obabel included) when ORCA is on the path.
+set -euo pipefail
+
+root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+shopt -s nullglob
+cudalibs=("$root"/.venv/lib/python*/site-packages/nvidia/*/lib)
+shopt -u nullglob
+
+if [[ ${#cudalibs[@]} -eq 0 ]]; then
+    echo "gnina: no CUDA runtime libs found under $root/.venv" >&2
+    exit 1
+fi
+
+LD_LIBRARY_PATH="$(IFS=:; echo "${cudalibs[*]}")"
+export LD_LIBRARY_PATH
+
+exec "$root/bin/gnina.bin" "$@"
