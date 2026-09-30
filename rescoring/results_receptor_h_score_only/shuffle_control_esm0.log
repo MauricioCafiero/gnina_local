@@ -1,0 +1,89 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn fast)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/cafierom/python_linux/gnina/bin/gnina.bin --score_only -r shuffle_control_esm0/receptor_h.pdb -l shuffle_control_esm0/poses_with_reference.sdf -o results_receptor_h_score_only/shuffle_control_esm0_scored.sdf --seed 42
+## Name gauss(o=0,_w=0.5,_c=8) gauss(o=3,_w=2,_c=8) repulsion(o=0,_c=8) hydrophobic(g=0.5,_b=1.5,_c=8) non_dir_h_bond(g=-0.7,_b=0,_c=8) num_tors_div
+Affinity: -3.07652 (kcal/mol)
+CNNscore: 0.65354 
+CNNaffinity: 4.52038
+CNNvariance: 0.10658
+Intramolecular energy: -0.68604
+Term values, before weighting:
+## shuffle_control_esm0_pose0_reference 24.07058 487.98026 0.07286 39.46478 0.00000 0.00000
+Affinity: -4.47684 (kcal/mol)
+CNNscore: 0.25718 
+CNNaffinity: 3.97707
+CNNvariance: 0.32901
+Intramolecular energy: -1.18891
+Term values, before weighting:
+## shuffle_control_esm0_pose1 64.25381 511.99905 0.38155 63.50147 0.00000 0.00000
+Affinity: -4.27871 (kcal/mol)
+CNNscore: 0.28672 
+CNNaffinity: 4.11395
+CNNvariance: 0.45571
+Intramolecular energy: -1.51745
+Term values, before weighting:
+## shuffle_control_esm0_pose2 63.53817 497.24698 0.36841 54.23942 0.19221 0.00000
+Affinity: -4.20263 (kcal/mol)
+CNNscore: 0.24942 
+CNNaffinity: 4.14606
+CNNvariance: 0.47049
+Intramolecular energy: -1.32471
+Term values, before weighting:
+## shuffle_control_esm0_pose3 62.76550 559.14233 0.70360 53.86332 0.00000 0.00000
+Affinity: -4.53189 (kcal/mol)
+CNNscore: 0.30146 
+CNNaffinity: 3.90690
+CNNvariance: 0.69347
+Intramolecular energy: -0.78963
+Term values, before weighting:
+## shuffle_control_esm0_pose4 59.77764 550.49542 0.24748 61.56621 0.00000 0.00000
+Affinity: -4.43636 (kcal/mol)
+CNNscore: 0.26449 
+CNNaffinity: 3.77183
+CNNvariance: 0.38645
+Intramolecular energy: -0.91378
+Term values, before weighting:
+## shuffle_control_esm0_pose5 63.57604 477.32071 0.31809 66.00556 0.00000 0.00000
+Affinity: -4.16084 (kcal/mol)
+CNNscore: 0.24028 
+CNNaffinity: 4.13434
+CNNvariance: 0.74669
+Intramolecular energy: -1.26295
+Term values, before weighting:
+## shuffle_control_esm0_pose6 59.95211 557.18256 0.70269 55.16508 0.00000 0.00000
+Affinity: -4.32024 (kcal/mol)
+CNNscore: 0.28149 
+CNNaffinity: 4.12310
+CNNvariance: 0.34629
+Intramolecular energy: -0.95064
+Term values, before weighting:
+## shuffle_control_esm0_pose7 66.03184 566.93536 0.89124 59.01752 0.00000 0.00000
+Affinity: -4.30249 (kcal/mol)
+CNNscore: 0.32542 
+CNNaffinity: 4.13315
+CNNvariance: 0.19537
+Intramolecular energy: -0.97612
+Term values, before weighting:
+## shuffle_control_esm0_pose8 58.08852 518.20825 0.41319 62.01412 0.00000 0.00000
+Affinity: -4.30921 (kcal/mol)
+CNNscore: 0.50692 
+CNNaffinity: 4.47378
+CNNvariance: 0.36279
+Intramolecular energy: -0.89494
+Term values, before weighting:
+## shuffle_control_esm0_pose9 54.42155 582.00366 0.62579 51.31789 0.62225 0.00000
