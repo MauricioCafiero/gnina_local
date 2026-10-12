@@ -1,0 +1,89 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn fast)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/cafierom/python_linux/gnina/bin/gnina.bin --score_only -r ox2_shuffle_rf3apo/receptor_h.pdb -l ox2_shuffle_rf3apo/poses_with_reference.sdf -o results_receptor_h_score_only/ox2_shuffle_rf3apo_scored.sdf --seed 42
+## Name gauss(o=0,_w=0.5,_c=8) gauss(o=3,_w=2,_c=8) repulsion(o=0,_c=8) hydrophobic(g=0.5,_b=1.5,_c=8) non_dir_h_bond(g=-0.7,_b=0,_c=8) num_tors_div
+Affinity: 118.00146 (kcal/mol)
+CNNscore: 0.00036 
+CNNaffinity: 1.11860
+CNNvariance: 0.30825
+Intramolecular energy: -0.25338
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose0_reference 95.39069 565.38055 179.73433 22.99212 5.98359 0.00000
+Affinity: -4.58930 (kcal/mol)
+CNNscore: 0.44304 
+CNNaffinity: 3.27859
+CNNvariance: 0.26863
+Intramolecular energy: -0.71852
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose1 57.23524 331.01584 0.44283 44.95780 0.76015 0.00000
+Affinity: -4.68307 (kcal/mol)
+CNNscore: 0.30081 
+CNNaffinity: 2.69201
+CNNvariance: 0.92406
+Intramolecular energy: -0.51099
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose2 60.39685 483.39322 0.96233 16.05215 1.88755 0.00000
+Affinity: -4.68452 (kcal/mol)
+CNNscore: 0.30352 
+CNNaffinity: 2.75495
+CNNvariance: 0.85263
+Intramolecular energy: -0.47035
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose3 60.23847 486.31271 0.93619 16.09570 1.83441 0.00000
+Affinity: -4.37724 (kcal/mol)
+CNNscore: 0.34607 
+CNNaffinity: 3.14399
+CNNvariance: 0.47756
+Intramolecular energy: -0.76883
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose4 59.83658 480.28790 1.16862 16.04725 1.63216 0.00000
+Affinity: -4.31427 (kcal/mol)
+CNNscore: 0.33448 
+CNNaffinity: 3.03010
+CNNvariance: 0.63270
+Intramolecular energy: -0.77753
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose5 52.66620 479.53400 1.00950 14.64644 1.80309 0.00000
+Affinity: -4.24237 (kcal/mol)
+CNNscore: 0.29903 
+CNNaffinity: 2.99525
+CNNvariance: 0.63578
+Intramolecular energy: -0.77071
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose6 48.67909 484.43497 0.80452 14.62147 1.56600 0.00000
+Affinity: -4.46844 (kcal/mol)
+CNNscore: 0.29796 
+CNNaffinity: 3.23785
+CNNvariance: 0.60593
+Intramolecular energy: -0.69369
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose7 42.18054 495.84436 0.71299 13.42029 2.25257 0.00000
+Affinity: -4.30676 (kcal/mol)
+CNNscore: 0.38541 
+CNNaffinity: 3.21997
+CNNvariance: 0.32151
+Intramolecular energy: -0.60327
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose8 54.63146 314.67126 0.40106 44.68921 0.45228 0.00000
+Affinity: -4.09015 (kcal/mol)
+CNNscore: 0.30278 
+CNNaffinity: 2.76613
+CNNvariance: 0.81707
+Intramolecular energy: -0.77863
+Term values, before weighting:
+## ox2_shuffle_rf3apo_pose9 57.94998 472.00623 0.60852 12.19417 0.67357 0.00000

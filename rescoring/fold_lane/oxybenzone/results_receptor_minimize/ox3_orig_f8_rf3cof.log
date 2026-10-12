@@ -1,0 +1,68 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn fast)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/cafierom/python_linux/gnina/bin/gnina.bin --minimize -r ox3_orig_f8_rf3cof/receptor.pdb -l ox3_orig_f8_rf3cof/poses_with_reference.sdf -o results_receptor_minimize/ox3_orig_f8_rf3cof_scored.sdf --seed 42
+Affinity: -4.50122  -0.69224 (kcal/mol)
+RMSD: 0.12792
+CNNscore: 0.59892 
+CNNaffinity: 3.68716
+CNNvariance: 0.05390
+Affinity: -4.17045  -0.73610 (kcal/mol)
+RMSD: 0.20125
+CNNscore: 0.29414 
+CNNaffinity: 3.23837
+CNNvariance: 0.35646
+Affinity: -4.35161  -0.62081 (kcal/mol)
+RMSD: 0.14254
+CNNscore: 0.71274 
+CNNaffinity: 3.14882
+CNNvariance: 0.50416
+Affinity: -3.73273  -0.69446 (kcal/mol)
+RMSD: 2.20451
+CNNscore: 0.64611 
+CNNaffinity: 3.29671
+CNNvariance: 0.27964
+Affinity: -4.44199  -0.70142 (kcal/mol)
+RMSD: 1.64762
+CNNscore: 0.62003 
+CNNaffinity: 3.68504
+CNNvariance: 0.10720
+Affinity: -4.34187  -0.72400 (kcal/mol)
+RMSD: 0.39033
+CNNscore: 0.36795 
+CNNaffinity: 3.20151
+CNNvariance: 0.37305
+Affinity: -4.38043  -0.69870 (kcal/mol)
+RMSD: 0.28624
+CNNscore: 0.62337 
+CNNaffinity: 3.60749
+CNNvariance: 0.06830
+Affinity: -4.30229  -0.57779 (kcal/mol)
+RMSD: 0.04775
+CNNscore: 0.38405 
+CNNaffinity: 3.15952
+CNNvariance: 0.33600
+Affinity: -4.07654  -0.72030 (kcal/mol)
+RMSD: 0.25172
+CNNscore: 0.56904 
+CNNaffinity: 3.39711
+CNNvariance: 0.17702
+Affinity: -4.08321  -0.71240 (kcal/mol)
+RMSD: 0.35357
+CNNscore: 0.53357 
+CNNaffinity: 3.62915
+CNNvariance: 0.22805

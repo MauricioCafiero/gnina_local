@@ -1,0 +1,55 @@
+wrote results_receptor_minimize/gnina_scores.csv (500 poses)
+
+structure               n     CNNscore rank  CNNaffinity rk       vina rank
+bg33_1_bzapo           10              7/10            8/10               -
+bg33_1_o3apo           10              7/10            7/10               -
+bg33_1_o3cof           10              3/10            3/10               -
+bg33_1_rf3apo          10              9/10            8/10               -
+bg33_1_rf3cof          10              2/10            2/10               -
+bg33_2_bzapo           10              1/10            1/10               -
+bg33_2_o3apo           10              3/10            2/10               -
+bg33_2_o3cof           10              6/10            3/10               -
+bg33_2_rf3apo          10              4/10            4/10               -
+bg33_2_rf3cof          10              1/10            1/10               -
+bg33_3_bzapo           10              1/10            1/10               -
+bg33_3_o3apo           10              2/10            1/10               -
+bg33_3_o3cof           10              5/10            8/10               -
+bg33_3_rf3apo          10              6/10            6/10               -
+bg33_3_rf3cof          10              3/10            4/10               -
+bg33_4_bzapo           10             10/10            9/10               -
+bg33_4_o3apo           10              5/10            7/10               -
+bg33_4_o3cof           10              6/10            9/10               -
+bg33_4_rf3apo          10              3/10            1/10               -
+bg33_4_rf3cof          10              5/10            2/10               -
+orig_f12_bzapo         10              1/10            1/10               -
+orig_f12_o3apo         10              1/10            3/10               -
+orig_f12_o3cof         10              5/10            7/10               -
+orig_f12_rf3apo        10              7/10           10/10               -
+orig_f12_rf3cof        10              5/10            9/10               -
+s2_esm2_control_bzapo  10              8/10            8/10               -
+s2_esm2_control_o3apo  10              3/10            3/10               -
+s2_esm2_control_o3cof  10              2/10            2/10               -
+s2_esm2_control_rf3apo 10             10/10           10/10               -
+s2_esm2_control_rf3cof 10              2/10           10/10               -
+s3_esm2_f4_bzapo       10              2/10            5/10               -
+s3_esm2_f4_o3apo       10              9/10            8/10               -
+s3_esm2_f4_o3cof       10              4/10            5/10               -
+s3_esm2_f4_rf3apo      10              2/10            9/10               -
+s3_esm2_f4_rf3cof      10              3/10            9/10               -
+s3_orig_f12_bzapo      10              1/10            7/10               -
+s3_orig_f12_o3apo      10              2/10            3/10               -
+s3_orig_f12_o3cof      10              1/10            1/10               -
+s3_orig_f12_rf3apo     10              1/10            8/10               -
+s3_orig_f12_rf3cof     10              5/10            9/10               -
+shuffle_control_bzapo  10              2/10            1/10               -
+shuffle_control_esm0_bzapo 10              2/10            3/10               -
+shuffle_control_esm0_o3apo 10              9/10            8/10               -
+shuffle_control_esm0_o3cof 10              5/10            6/10               -
+shuffle_control_esm0_rf3apo 10              4/10            4/10               -
+shuffle_control_esm0_rf3cof 10             10/10            9/10               -
+shuffle_control_o3apo  10              8/10            8/10               -
+shuffle_control_o3cof  10              1/10            5/10               -
+shuffle_control_rf3apo 10              5/10           10/10               -
+shuffle_control_rf3cof 10              8/10            7/10               -
+
+rank 1 = the predicted pose scored best of the ten. Vina never managed better than 6th.

@@ -1,0 +1,89 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn fast)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/cafierom/python_linux/gnina/bin/gnina.bin --score_only -r s2_esm2_control_o3cof/receptor.pdb -l s2_esm2_control_o3cof/poses_with_reference.sdf -o results_receptor_score_only/s2_esm2_control_o3cof_scored.sdf --seed 42
+## Name gauss(o=0,_w=0.5,_c=8) gauss(o=3,_w=2,_c=8) repulsion(o=0,_c=8) hydrophobic(g=0.5,_b=1.5,_c=8) non_dir_h_bond(g=-0.7,_b=0,_c=8) num_tors_div
+Affinity: -1.45770 (kcal/mol)
+CNNscore: 0.64281 
+CNNaffinity: 4.27081
+CNNvariance: 0.30235
+Intramolecular energy: -0.47916
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose0_reference 14.16443 306.81369 0.42987 14.25646 0.00000 0.00000
+Affinity: -4.35222 (kcal/mol)
+CNNscore: 0.44281 
+CNNaffinity: 4.35175
+CNNvariance: 0.13209
+Intramolecular energy: -0.97452
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose1 65.61053 567.70972 0.42547 49.56297 0.00000 0.00000
+Affinity: -4.09654 (kcal/mol)
+CNNscore: 0.26139 
+CNNaffinity: 4.11017
+CNNvariance: 0.57554
+Intramolecular energy: -0.85244
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose2 55.53091 544.92310 0.98084 54.05322 0.67250 0.00000
+Affinity: -3.91266 (kcal/mol)
+CNNscore: 0.31130 
+CNNaffinity: 4.09319
+CNNvariance: 0.88317
+Intramolecular energy: -1.16655
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose3 54.56132 560.33887 0.89229 44.00510 0.59147 0.00000
+Affinity: -4.15571 (kcal/mol)
+CNNscore: 0.59444 
+CNNaffinity: 4.28125
+CNNvariance: 0.14734
+Intramolecular energy: -0.71982
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose4 66.62439 533.12451 0.83260 45.65884 0.54705 0.00000
+Affinity: -4.04649 (kcal/mol)
+CNNscore: 0.73916 
+CNNaffinity: 4.71054
+CNNvariance: 0.27534
+Intramolecular energy: -0.77938
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose5 63.92745 551.02887 1.20408 46.94054 0.72433 0.00000
+Affinity: -3.97237 (kcal/mol)
+CNNscore: 0.27019 
+CNNaffinity: 4.05235
+CNNvariance: 0.67885
+Intramolecular energy: -0.84337
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose6 57.27157 557.06274 0.69371 44.16890 0.31739 0.00000
+Affinity: -3.68121 (kcal/mol)
+CNNscore: 0.24842 
+CNNaffinity: 3.77202
+CNNvariance: 0.42890
+Intramolecular energy: -1.17104
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose7 53.05597 528.32605 0.75902 38.17417 0.51979 0.00000
+Affinity: -4.15930 (kcal/mol)
+CNNscore: 0.43124 
+CNNaffinity: 3.74446
+CNNvariance: 0.87918
+Intramolecular energy: -0.80457
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose8 69.78278 529.26434 0.56821 32.95389 0.77925 0.00000
+Affinity: -3.88010 (kcal/mol)
+CNNscore: 0.52261 
+CNNaffinity: 4.47154
+CNNvariance: 0.00384
+Intramolecular energy: -0.83786
+Term values, before weighting:
+## s2_esm2_control_o3cof_pose9 55.39320 536.51038 0.90457 41.59777 0.82691 0.00000

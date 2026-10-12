@@ -1,0 +1,60 @@
+wrote results_receptor_minimize/gnina_scores.csv (550 poses)
+
+structure               n     CNNscore rank  CNNaffinity rk       vina rank
+bgox31_2_bzapo         10              8/10            6/10               -
+bgox31_2_o3apo         10             10/10            8/10               -
+bgox31_2_o3cof         10              4/10            4/10               -
+bgox31_2_rf3apo        10              5/10            5/10               -
+bgox31_2_rf3cof        10              9/10            8/10               -
+bgox31_3_bzapo         10              3/10            7/10               -
+bgox31_3_o3apo         10              5/10           10/10               -
+bgox31_3_o3cof         10              7/10            9/10               -
+bgox31_3_rf3apo        10              1/10            2/10               -
+bgox31_3_rf3cof        10              9/10            9/10               -
+bgox31_4_bzapo         10             10/10           10/10               -
+bgox31_4_o3apo         10              3/10            3/10               -
+bgox31_4_o3cof         10              8/10           10/10               -
+bgox31_4_rf3apo        10              3/10            3/10               -
+bgox31_4_rf3cof        10             10/10            7/10               -
+bgox31_5_bzapo         10             10/10            8/10               -
+bgox31_5_o3apo         10              9/10            8/10               -
+bgox31_5_o3cof         10              9/10            6/10               -
+bgox31_5_rf3apo        10              1/10            1/10               -
+bgox31_5_rf3cof        10              3/10            4/10               -
+ox1_esm1_f8_bzapo      10              8/10            6/10               -
+ox1_esm1_f8_o3apo      10              3/10            1/10               -
+ox1_esm1_f8_o3cof      10              6/10            7/10               -
+ox1_esm1_f8_rf3apo     10             10/10           10/10               -
+ox1_esm1_f8_rf3cof     10              4/10            4/10               -
+ox1_orig_f12_bzapo     10              6/10            2/10               -
+ox1_orig_f12_o3apo     10              1/10            7/10               -
+ox1_orig_f12_o3cof     10              9/10            9/10               -
+ox1_orig_f12_rf3apo    10             10/10           10/10               -
+ox1_orig_f12_rf3cof    10              1/10            1/10               -
+ox2_esm1_f8_bzapo      10              6/10           10/10               -
+ox2_esm1_f8_o3apo      10              4/10            7/10               -
+ox2_esm1_f8_o3cof      10              1/10            1/10               -
+ox2_esm1_f8_rf3apo     10              1/10            9/10               -
+ox2_esm1_f8_rf3cof     10              6/10            3/10               -
+ox2_orig_f8_bzapo      10             10/10            7/10               -
+ox2_orig_f8_o3apo      10             10/10           10/10               -
+ox2_orig_f8_o3cof      10             10/10            4/10               -
+ox2_orig_f8_rf3apo     10              3/10            2/10               -
+ox2_orig_f8_rf3cof     10             10/10            4/10               -
+ox2_shuffle_bzapo      10              6/10           10/10               -
+ox2_shuffle_esm0_bzapo 10              4/10            2/10               -
+ox2_shuffle_esm0_o3apo 10             10/10           10/10               -
+ox2_shuffle_esm0_o3cof 10              9/10            2/10               -
+ox2_shuffle_esm0_rf3apo 10              1/10            2/10               -
+ox2_shuffle_esm0_rf3cof 10              9/10            9/10               -
+ox2_shuffle_o3apo      10              8/10            2/10               -
+ox2_shuffle_o3cof      10              5/10            6/10               -
+ox2_shuffle_rf3apo     10              4/10            6/10               -
+ox2_shuffle_rf3cof     10              4/10            5/10               -
+ox3_orig_f8_bzapo      10              3/10            5/10               -
+ox3_orig_f8_o3apo      10              3/10            5/10               -
+ox3_orig_f8_o3cof      10              7/10            6/10               -
+ox3_orig_f8_rf3apo     10              3/10            2/10               -
+ox3_orig_f8_rf3cof     10              2/10            6/10               -
+
+rank 1 = the predicted pose scored best of the ten. Vina never managed better than 6th.

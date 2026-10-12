@@ -1,0 +1,89 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn fast)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/cafierom/python_linux/gnina/bin/gnina.bin --score_only -r bgox31_3_rf3cof/receptor_h.pdb -l bgox31_3_rf3cof/poses_with_reference.sdf -o results_receptor_h_score_only/bgox31_3_rf3cof_scored.sdf --seed 42
+## Name gauss(o=0,_w=0.5,_c=8) gauss(o=3,_w=2,_c=8) repulsion(o=0,_c=8) hydrophobic(g=0.5,_b=1.5,_c=8) non_dir_h_bond(g=-0.7,_b=0,_c=8) num_tors_div
+Affinity: -2.67511 (kcal/mol)
+CNNscore: 0.70418 
+CNNaffinity: 4.43355
+CNNvariance: 0.10496
+Intramolecular energy: -0.49649
+Term values, before weighting:
+## bgox31_3_rf3cof_pose0_reference 17.17316 333.29092 0.14285 26.65755 0.00000 0.00000
+Affinity: -5.23749 (kcal/mol)
+CNNscore: 0.75242 
+CNNaffinity: 4.23938
+CNNvariance: 0.09982
+Intramolecular energy: -0.67100
+Term values, before weighting:
+## bgox31_3_rf3cof_pose1 52.84023 717.94598 1.85747 48.89006 0.71584 0.00000
+Affinity: -5.08184 (kcal/mol)
+CNNscore: 0.58113 
+CNNaffinity: 4.02856
+CNNvariance: 0.21995
+Intramolecular energy: -0.75079
+Term values, before weighting:
+## bgox31_3_rf3cof_pose2 49.70346 657.53186 1.01388 47.51697 0.00000 0.00000
+Affinity: -4.90058 (kcal/mol)
+CNNscore: 0.55892 
+CNNaffinity: 4.00664
+CNNvariance: 0.29904
+Intramolecular energy: -0.78092
+Term values, before weighting:
+## bgox31_3_rf3cof_pose3 44.42515 649.75769 1.04064 48.58076 0.00000 0.00000
+Affinity: -4.96719 (kcal/mol)
+CNNscore: 0.48686 
+CNNaffinity: 4.16621
+CNNvariance: 0.38741
+Intramolecular energy: -0.64327
+Term values, before weighting:
+## bgox31_3_rf3cof_pose4 43.62327 632.68457 1.32637 43.30733 1.05521 0.00000
+Affinity: -4.69384 (kcal/mol)
+CNNscore: 0.50554 
+CNNaffinity: 3.85520
+CNNvariance: 0.35816
+Intramolecular energy: -0.68292
+Term values, before weighting:
+## bgox31_3_rf3cof_pose5 43.40636 567.11896 0.71789 40.94128 0.36779 0.00000
+Affinity: -4.71096 (kcal/mol)
+CNNscore: 0.57502 
+CNNaffinity: 3.89070
+CNNvariance: 0.20847
+Intramolecular energy: -0.47960
+Term values, before weighting:
+## bgox31_3_rf3cof_pose6 41.67395 621.56885 1.02261 48.72910 0.00000 0.00000
+Affinity: -4.69464 (kcal/mol)
+CNNscore: 0.63773 
+CNNaffinity: 4.00691
+CNNvariance: 0.12269
+Intramolecular energy: -0.45342
+Term values, before weighting:
+## bgox31_3_rf3cof_pose7 52.69360 676.25909 1.21390 33.54472 0.00000 0.00000
+Affinity: -4.47289 (kcal/mol)
+CNNscore: 0.56782 
+CNNaffinity: 4.03349
+CNNvariance: 0.14671
+Intramolecular energy: -0.70504
+Term values, before weighting:
+## bgox31_3_rf3cof_pose8 49.95037 681.92810 1.70044 39.71979 0.00000 0.00000
+Affinity: -4.45398 (kcal/mol)
+CNNscore: 0.26570 
+CNNaffinity: 3.46402
+CNNvariance: 0.28375
+Intramolecular energy: -0.68843
+Term values, before weighting:
+## bgox31_3_rf3cof_pose9 41.94225 536.83630 0.82552 33.48207 0.84160 0.00000
